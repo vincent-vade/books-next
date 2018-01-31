@@ -6,8 +6,8 @@ export default () => (
     <Link href="/">
       <a>Home</a>
     </Link>
-    <Link href="/about">
-      <a>About</a>
+    <Link href="/books">
+      <a>Books</a>
     </Link>
   </nav>
 );

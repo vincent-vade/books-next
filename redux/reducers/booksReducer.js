@@ -5,7 +5,7 @@ import {
 } from '../constants'
 import initialState from '../config/initalState';
 
-export default booksReducer = (state = initialState.books, action) => {
+export default function booksReducer(state = initialState.books, action) {
   const { error, books } = action.type;
   switch (action) {
     case GET_BOOKS_REQUEST:
